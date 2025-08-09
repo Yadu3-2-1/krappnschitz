@@ -28,7 +28,8 @@ body {
 
 /* This makes sure images don't overflow their container */
 img {
-    max-width: 60%;
+    padding-left: 10%;
+    max-width: 70%;
     height: auto;
     border-radius: 4px; /* Optional: rounded corners for images */
 }
