@@ -28,12 +28,14 @@ img {
 }
 
 h1 {
-    color: #1c1e21;
+    color:#036bfc;
     text-align: center;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.6; /* Improves readability */
+     font-weight: 500;
 }
 
 /* --- Styles for the Form Section --- */
@@ -55,8 +57,8 @@ label {
     display: block; /* Ensures the label is on its own line */
     margin-bottom: 8px;
     font-weight: 600;
-    color: #4b5563; /* A slightly softer black for text */
-}
+    color: #000000; /* A slightly softer black for text */
+  }
 
 /* Styling for the text input bars */
 input[type="text"] {
@@ -71,6 +73,17 @@ input[type="text"] {
 /* A subtle effect when the user clicks on an input bar */
 input[type="text"]:focus {
     outline: none;
-    border-color: #3b82f6; /* Highlight with a blue color */
+    border-color: #075be2; /* Highlight with a blue color */
     box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4);
+}
+label {
+  display: block;
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
 }
